@@ -7,3 +7,9 @@ test('renders learn react link', () => {
   const linkElement = getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('raise an error while test', () => {
+  const { queryByText } = render(<App />);
+  const linkElement = queryByText(/test/i);
+  expect(linkElement).toBeNull();
+});
