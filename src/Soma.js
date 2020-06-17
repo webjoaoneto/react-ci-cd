@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-import "Soma.css";
+import "./Soma.css";
 
 function Soma() {
   const [ op1, setOp1 ] = useState('');
