@@ -10,7 +10,7 @@ function Soma() {
 
 
   const somar = function() {
-      setRes( Number(op1) - Number(op2) );
+      setRes( Number(op1) + Number(op2) );
   }
 
   return (
